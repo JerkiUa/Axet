@@ -1,0 +1,197 @@
+.stylish {
+    background-image: url(../img/bg.png);
+    /* background: rgba(0, 0, 0, 0.5); */
+    height: 442px;
+    max-width: 1510px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+.stylish>h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 107px;
+}
+
+.stylish>img {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.stylish>p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 73px;
+}
+
+.Download {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    padding: 15px 50px 15px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.sstylish-form {
+    display:flex;
+    max-width: 1170px;
+}
+
+input {outline:none;}
+
+.form-modal3 {
+    padding: 20px 410px 14px 0px;
+    
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+.form-modal4 {
+    padding: 53px 410px 14px 0px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.form-coment1 {
+    padding: 53px 408px 14px 0px;
+    border: none;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.form-coment2 {
+    padding: 20px 300px 182px 0px;
+    border: none;
+    height: auto;
+    border-bottom: 1px solid #BDBDBD;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.btn-sstylish-modal>p {
+    max-width: 470px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    background: #EC7979;
+    border-radius:10px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+@media (max-width:1150px)  {
+    .form-modal3 {
+        padding: 20px 310px 14px 0px;
+    }
+    .form-modal4 {
+        padding: 53px 310px 14px 0px;
+        border: none;
+        border-bottom: 1px solid #BDBDBD;
+    }
+    
+    .form-coment1 {
+        padding: 53px 308px 14px 0px;
+        border: none;
+        margin-bottom: 50px;
+        border-bottom: 1px solid #BDBDBD;
+    }
+    
+    .form-coment2 {
+        padding: 20px 200px 182px 0px;
+        border: none;
+        height: auto;
+        border-bottom: 1px solid #BDBDBD;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width:950px)  {
+    .form-modal3 {
+        padding: 20px 210px 14px 0px;
+    }
+    .form-modal4 {
+        padding: 53px 210px 14px 0px;
+    }
+    
+    .form-coment1 {
+        padding: 53px 208px 14px 0px;
+    }
+    
+    .form-coment2 {
+        padding: 20px 120px 182px 0px;
+    }
+    .btn-sstylish-modal>p {
+        max-width: 420px;
+    }
+}
+@media (max-width:770px)  {
+    .form-modal3 {
+        padding: 20px 130px 14px 0px;
+    }
+    .form-modal4 {
+        padding: 53px 130px 14px 0px;
+    }
+    
+    .form-coment1 {
+        padding: 53px 128px 14px 0px;
+    }
+    
+    .form-coment2 {
+        padding: 20px 128px 14px 0px;
+        margin: 0;
+
+    }
+    .btn-sstylish-modal>p {
+        max-width: 290px;
+    }
+    .sstylish-form {
+        display: block;
+    }
+}
+
+@media (max-width:370px) {
+    .form-modal3 {
+        padding: 20px 80px 14px 0px;
+    }
+    .form-modal4 {
+        padding: 53px 80px 14px 0px;
+    }
+    
+    .form-coment1 {
+        padding: 53px 60px 14px 0px;
+    }
+    
+    .form-coment2 {
+        padding: 20px 60px 14px 0px;
+        margin: 0;
+
+    }
+    .btn-sstylish-modal>p {
+        max-width: 230px;
+    }
+}

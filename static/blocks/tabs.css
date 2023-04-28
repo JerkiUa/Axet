@@ -1,0 +1,268 @@
+.media  {
+    display: flex;
+    justify-content: space-between;
+    height: 140px;
+}
+.icon-media {
+    display: flex;
+    justify-content: space-between;
+    max-width: 670px;
+    align-items: center;
+
+}
+
+.social-title {
+    max-width: 470px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+}
+
+.social-head {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    align-items: center;
+    text-transform: capitalize;
+    padding: 55px auto 55px auto;
+    color: #333333;
+}
+
+.icon-media>img {
+    width: 70px;
+    height: 70px;
+    padding-left: 30px;
+}
+
+.icon-media>img:first-child {
+    padding-left: 0;
+}
+
+.tab-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #333333;
+}
+.btn-downoload {
+    background: #EC7979;
+    padding: 15px 95px 15px 95px;
+    border: none;
+}
+
+.tab-text {
+    margin-left: 100px;
+    
+}
+
+.tab-text>h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.tab-text>p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    max-width: 550px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.tabs3 {
+    margin-left: 27px;
+    display: flex;
+    margin-bottom: -1px;
+}
+
+.tabs3>p {
+    padding: 10px 82px 10px 82px;
+    border: 1px solid #333333;
+    margin: 0;
+}
+.hidden {
+    display: none;
+}
+
+@media (max-width:1260px) {
+    .tab-content>img {
+        width: 385px;
+        height: 398px;
+    }
+    .tab-text {
+        margin-left: 85px;
+    }
+    .tab-content {
+        max-width: 992px;
+        height: 398px;
+    }
+    .tabs3 {
+        max-width: 992px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .icon-media>img {
+        width: 64px;
+        height: 64px;
+        padding-left: 20px;
+    }
+    .btn-downoload {
+        margin-bottom: 30px;
+    }
+    .img>img {
+        width: 385px;
+        height: 398px;
+    }
+    
+}
+
+@media (max-width:1050px) {
+    .tab-content {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .tabs3 {
+        margin-left: 15px;
+    }
+    .tabs3>p {
+        padding: 10px 52px 10px 52px;
+    }
+}
+@media (max-width:900px) {
+    .icon-media {
+        max-width: auto;
+        
+    }
+
+    .media {
+        margin-bottom: 15px;
+    }
+    .icon-media>img {
+        width: 44px;
+        height: 44px;
+        padding-left: 10px;
+    }
+    .tab-text {
+        margin-left: 65px;
+        
+    }
+    .tab-text>h3 {
+    margin: 20px auto 20px auto;
+    }
+
+    .tab-content {
+        height: auto ;
+    }
+    .social-head {
+        margin: 10px 0 5px 0;
+    }
+    
+}
+
+@media (max-width:800px) {
+    
+    .media {
+        display: block;
+        text-align: center;
+    }
+    .icon-media>img {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .tab-text {
+        margin-left: 35px;
+        
+    }
+    .img>img {
+        width: 315px;
+        height: 328px;
+    }
+}
+
+@media (max-width:730px) {
+    .img>img {
+        display: none;
+    }
+    .tab-content {
+        height: 340px;
+    }
+    .tabs3>p {
+        padding: 10px 42px 10px 42px;
+    }
+}
+
+@media (max-width:530px) {
+    .tabs3>p {
+        padding: 10px 22px 10px 22px;
+    }
+    .tab-text {
+        margin-left: 10px;
+    }
+    .btn-downoload {
+        margin-bottom: 30px;
+    }
+    .media {
+        margin-bottom: 10px;
+    }
+    .icon-media>img {
+        width: 24px;
+        height: 24px;
+        padding-left: 10px;
+    }
+    .tab-text>h3 {
+        margin: 10px auto 10px auto;
+        font-size: 24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tab-text>p {
+        font-size: 14px;
+        min-width: 235px;
+        margin-bottom: 25px;
+    }
+    .tabs3>p {
+        padding: 7px 12px 7px 12px;
+    }
+    .tab-content {
+        height: auto;
+    }
+}
+
+@media (max-width:330px) {
+    .tab-text {
+        max-width: 235px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn-downoload {
+        padding: 10px 65px 10px 65px;
+    }
+    .tab-content {
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    }
+    .tabs3 {
+        margin-left: 5px;
+    }
+}

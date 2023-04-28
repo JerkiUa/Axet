@@ -1,0 +1,171 @@
+.pricing-conteiner {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 174px;
+}
+
+.pricing-conteiner>h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.pricing-conteiner>p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-conteiner>img {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 15px 115px 15px 115px;
+    color: #FFFFFF;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    margin: 0;
+}
+
+.cost {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 15px 115px 15px 115px;
+    color: #FFFFFF;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+    margin: 0;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.basic>p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #86878B;
+}
+
+.basic {
+    margin-top: 20px;
+}
+
+.optima>p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #86878B;
+}
+
+.pro>p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #86878B;
+}
+
+.pro {
+    margin-top: 20px;
+}
+
+
+
+@media (max-width:900px)  {
+    
+    .name {
+        padding: 15px 90px 15px 90px;
+    }
+    .cost {
+        padding: 15px 90px 15px 90px;
+    }
+}
+
+@media (max-width:800px)  {
+    
+    .name {
+        padding: 15px 70px 15px 70px;
+    }
+    .cost {
+        padding: 15px 70px 15px 70px;
+    }
+}
+
+@media (max-width:750px)  {
+    
+    .name {
+        padding: 15px 50px 15px 50px;
+    }
+    .cost {
+        padding: 15px 50px 15px 50px;
+    }
+}
+
+@media (max-width:600px) {
+    .price {
+        display: block;
+        text-align: center;
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .basic {
+        text-align: center;
+    }
+    .name {
+        padding: 15px 115px 15px 115px;
+    }
+    .cost {
+        padding: 15px 115px 15px 115px;
+    }
+}
+
+@media (max-width:360px) {
+    .name {
+        padding: 15px 70px 15px 70px;
+    }
+    .cost {
+        padding: 15px 70px 15px 70px;
+    }
+}

@@ -1,0 +1,43 @@
+.footer {
+    max-width: 1510px;
+    background-color: black;
+    height: 164px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.icon-footer {
+    max-width: 570px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+
+.icon-footer>img {
+    max-width: 52px;
+}
+
+.footer>p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 27px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width:730px) {
+    .icon-footer>img {
+        max-width: 40px;
+    }
+}
+
+@media (max-width:430px) {
+    .icon-footer>img {
+        max-width: 25px;
+    }
+}
